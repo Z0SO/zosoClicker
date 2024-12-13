@@ -6,7 +6,7 @@ segs = 0
 pyautogui.click()
 
 
-time.sleep(3)
+time.sleep(1)
 # Función de click
 def click(time_def):
     pyautogui.click()
@@ -34,7 +34,7 @@ def activar_click_izquierdo():
 
 # Esta función debe mantener presionada la letra 'w' para que el personaje camine y mantener el click izquierdo
 def minador():
-    pyautogui.keyDown('w')
+    pyautogui.keyDown('W')
     activar_click_izquierdo()
 
 print('------Autoclicker de Z0SO------')
